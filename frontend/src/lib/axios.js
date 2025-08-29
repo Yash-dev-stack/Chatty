@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://chatty-backend-96zo.onrender.com/api",
   withCredentials: true,
 });
