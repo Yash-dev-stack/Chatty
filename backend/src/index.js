@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chatty-frontend-ji8n.onrender.com",
     credentials: true,
   })
 );
