@@ -6,6 +6,8 @@ import bcrypt from "bcryptjs";
 // Controller for registering a user
 const signup = async (request, response) => {
   try {
+    console.log("JWT_SECRET_KEY:", process.env.JWT_SECRET_KEY);
+
     const { fullName, email, password } = request.body;
 
     // Check all fields are properly received from frontend
